@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test green api</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="action-bar">
+            <div class="action-bar__container">
+                <input id="idInstance" type="text" class="action-bar__input" placeholder="idInstance">
+                <input id="apiTokenInstance" type="text" class="action-bar__input" placeholder="apiTokenInstance">
+
+                <button id="getSettings" class="action-bar__button">getSettings</button>
+                <button id="getStateInstance" class="action-bar__button">getStateInstance</button>
+            </div>
+
+            <div class="action-bar__container">
+                <input id="messagePhone" type="tel" name="" id="" placeholder="77771234567">
+                <textarea id="messageText" name="" id="" cols="30" rows="10" placeholder="Hello World!"></textarea>
+
+                <button id="messageSend" class="action-bar__button">sendMessage</button>
+            </div>
+
+            <div class="action-bar__container">
+                <input id="filePhone" type="tel" name="" id="" placeholder="77771234567">
+                <input id="fileLink" type="text" class="action-bar__input" placeholder="heeps://my.site.com/img/horse.png">
+
+                <button id="fileSend" class="action-bar__button">sendFileByUrl</button>
+            </div>
+        </div>
+        <div class="output-bar">
+            <pre id="output" class="output"></pre>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

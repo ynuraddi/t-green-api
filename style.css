@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 40px 20px;
+
+    height: 100vh;
+    max-width: 1440px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-bar {
+    width: 50%;
+    height: 100vh;
+}
+
+.action-bar * {
+    width: 100%;
+}
+
+.action-bar__container {
+    margin-bottom: 40px;
+}
+
+.output-bar {
+    width: 50%;
+    height: 100vh;
+}
+
+.output {
+    padding-left: 15px;
+
+    width: 100%;
+    overflow: auto;
+}
